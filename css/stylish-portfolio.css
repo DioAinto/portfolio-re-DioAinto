@@ -232,8 +232,11 @@ h6 {
   position: relative;
   overflow: hidden;
   max-width: 530px;
+  height: 530px;
   margin: auto auto 1rem;
 }
+
+
 
 .portfolio-item .caption {
   display: flex;
@@ -264,6 +267,7 @@ h6 {
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
+	
     margin: 0;
   }
   .portfolio-item .caption {
